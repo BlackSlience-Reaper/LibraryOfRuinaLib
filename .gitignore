@@ -27,3 +27,7 @@ libs/sts2.dll
 obj/
 /tests/
 Directory.Build.targets
+
+# Machine-specific tool paths; keep portable build files in Git.
+local.props
+!LibraryLib.csproj
